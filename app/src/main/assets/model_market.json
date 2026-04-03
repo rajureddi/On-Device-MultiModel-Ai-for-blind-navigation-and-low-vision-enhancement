@@ -1,0 +1,143 @@
+{
+  "version": "9",
+  "tagTranslations": {
+    "Vision": "图像理解"
+
+
+
+
+  },
+  "quickFilterTags": ["Think", "Vision"],
+  "vendorOrder": [
+    "Qwen",
+    "DeepSeek",
+    "Gemma",
+    "Smol",
+    "Llama",
+    "FastVLM",
+    "ERNIE",
+    "Baichuan",
+    "Phi",
+    "MobileLLM",
+    "TinyLlama",
+    "THUDM",
+    "InternLM",
+    "01.AI",
+    "Hunyuan",
+    "MiniCPM",
+    "Lingshu"
+  ],
+  "models": [
+    {
+      "modelName": "InternVL2_5-1B-MNN",
+      "tags": ["Vision","Recommended","Balanced"],
+      "categories": ["chat", "internvl"],
+      "sources": {
+        "HuggingFace": "taobao-mnn/InternVL2_5-1B-MNN",
+        "ModelScope": "MNN/InternVL2_5-1B-MNN",
+        "Modelers": "MNN/InternVL2_5-1B-MNN"
+      },
+      "size_gb": 1.0,
+      "vendor": "InternLM",
+      "file_size": 887553126
+    },
+    {
+      "modelName": "FastVLM-1.5B-Stage3-MNN",
+      "tags": ["Vision","Recommended ","Balanced"],
+      "categories": ["chat", "fastvlm"],
+      "sources": {
+        "HuggingFace": "taobao-mnn/FastVLM-1.5B-Stage3-MNN",
+        "ModelScope": "MNN/FastVLM-1.5B-Stage3-MNN",
+        "Modelers": "MNN/FastVLM-1.5B-Stage3-MNN"
+      },
+      "size_gb": 1.5,
+      "vendor": "FastVLM",
+      "file_size": 1228204915
+    },
+
+    {
+      "modelName": "SmolVLM-500M-Instruct-MNN",
+      "tags": ["Vision","Faster less accuracy"],
+      "categories": ["chat", "smol"],
+      "sources": {
+        "HuggingFace": "taobao-mnn/SmolVLM-500M-Instruct-MNN",
+        "ModelScope": "MNN/SmolVLM-500M-Instruct-MNN",
+        "Modelers": "MNN/SmolVLM-500M-Instruct-MNN"
+      },
+      "size_gb": 0.5,
+      "vendor": "Smol",
+      "file_size": 607101723
+    },
+    {
+      "modelName": "SmolVLM-256M-Instruct-MNN",
+      "tags": ["Vision","Faster & less accuracy"],
+      "categories": ["chat", "smol"],
+      "sources": {
+        "HuggingFace": "taobao-mnn/SmolVLM-256M-Instruct-MNN",
+        "ModelScope": "MNN/SmolVLM-256M-Instruct-MNN",
+        "Modelers": "MNN/SmolVLM-256M-Instruct-MNN"
+      },
+      "size_gb": 0.256,
+      "vendor": "Smol",
+      "file_size": 311431732
+    },
+
+    {
+      "modelName": "FastVLM-0.5B-Stage3-MNN",
+      "tags": ["Vision", "Faster & less accuracy"],
+      "categories": ["chat", "fastvlm"],
+      "sources": {
+        "HuggingFace": "taobao-mnn/FastVLM-0.5B-Stage3-MNN",
+        "ModelScope": "MNN/FastVLM-0.5B-Stage3-MNN",
+        "Modelers": "MNN/FastVLM-0.5B-Stage3-MNN"
+      },
+      "size_gb": 0.5,
+      "vendor": "FastVLM",
+      "file_size": 519168032
+    },
+    {
+      "modelName": "SmolVLM2-2.2B-Instruct-MNN",
+      "tags": ["Vision",">=8gb RAM"],
+      "categories": ["chat", "smolvlm"],
+      "sources": {
+        "HuggingFace": "taobao-mnn/SmolVLM2-2.2B-Instruct-MNN",
+        "ModelScope": "MNN/SmolVLM2-2.2B-Instruct-MNN",
+        "Modelers": "MNN/SmolVLM2-2.2B-Instruct-MNN"
+      },
+      "size_gb": 0.5,
+      "vendor": "SMOLVLM",
+      "file_size": 519168032
+    },
+
+
+    {
+      "modelName": "SmolVLM-Instruct-MNN",
+      "tags": ["Vision",">8GB RAM"],
+      "categories": ["vision", "qwen"],
+      "sources": {
+        "HuggingFace": "taobao-mnn/SmolVLM-Instruct-MNN",
+        "ModelScope": "MNN/SmolVLM-Instruct-MNN",
+        "Modelers": "MNN/SmolVLM-Instruct-MNN"
+      },
+      "size_gb": 2.0,
+      "vendor": "smol",
+      "file_size": 519168032
+    }
+
+
+
+
+
+  ],
+  "libs": [
+    {
+      "modelName": "qnn_arm64_libs",
+      "tags": ["QNN"],
+      "sources": {
+        "ModelScope": "MNN/qnn_arm64_libs",
+        "Modelers": "MNN/qnn_arm64_libs",
+        "HuggingFace": "taobao-mnn/qnn_arm64_libs"
+      }
+    }
+  ]
+}

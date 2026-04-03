@@ -1,0 +1,3 @@
+C:/Users/rajub/Videos/MNN/apps/Android/visionaidplus/app/.cxx/Debug/p2o5333j/arm64-v8a/CMakeFiles/mnnllmapp.dir
+C:/Users/rajub/Videos/MNN/apps/Android/visionaidplus/app/.cxx/Debug/p2o5333j/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/rajub/Videos/MNN/apps/Android/visionaidplus/app/.cxx/Debug/p2o5333j/arm64-v8a/CMakeFiles/rebuild_cache.dir

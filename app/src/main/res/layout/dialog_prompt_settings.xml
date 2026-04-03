@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:background="@drawable/dialog_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prompt Settings"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Navigation Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blind Navigation"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#B388FF"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Default Prompt:"
+            android:textColor="#E1BEE7"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_default_nav_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#22FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="4dp"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:text="Loading..."/>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_custom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use Custom Prompt"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_custom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Custom Navigation Prompt"
+            android:visibility="gone"
+            app:hintTextColor="#E1BEE7"
+            app:boxStrokeColor="#B388FF">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_custom_nav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:gravity="top|start"
+                android:minLines="3"
+                android:textColor="#FFFFFF"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#33FFFFFF"
+            android:layout_marginVertical="24dp"/>
+
+        <!-- Low Vision Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low Vision Enhancement"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#80CBC4"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Default Prompt:"
+            android:textColor="#B2DFDB"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_default_vision_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#22FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="4dp"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:text="Loading..."/>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_custom_vision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use Custom Prompt"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_custom_vision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Custom Vision Prompt"
+            android:visibility="gone"
+            app:hintTextColor="#B2DFDB"
+            app:boxStrokeColor="#80CBC4">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_custom_vision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:gravity="top|start"
+                android:minLines="3"
+                android:textColor="#FFFFFF"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:text="SAVE CHANGES"
+            android:textColor="#FFFFFF"
+            app:cornerRadius="12dp"
+            android:backgroundTint="#6200EA"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

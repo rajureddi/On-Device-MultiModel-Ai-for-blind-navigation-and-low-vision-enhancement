@@ -1,0 +1,3 @@
+C:/Users/rajub/Videos/MNN/apps/Android/visionaidplus/opencv/.cxx/Debug/6m635r4n/arm64-v8a/CMakeFiles/opencv_jni_shared.dir
+C:/Users/rajub/Videos/MNN/apps/Android/visionaidplus/opencv/.cxx/Debug/6m635r4n/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/rajub/Videos/MNN/apps/Android/visionaidplus/opencv/.cxx/Debug/6m635r4n/arm64-v8a/CMakeFiles/rebuild_cache.dir

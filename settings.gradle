@@ -1,0 +1,24 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        google()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        google()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+rootProject.name = "NavEhan"
+include ':app'
+include ':opencv'
+include ':mnn_tts'
+project(':mnn_tts').projectDir = new File('../../frameworks/mnn_tts/android')
+
+project(":opencv").projectDir = file("opencv")

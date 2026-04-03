@@ -1,0 +1,1 @@
+C:\Users\rajub\Videos\MNN\apps\Android\visionaidplus\app\src\main\cpp\CMakeLists.txt

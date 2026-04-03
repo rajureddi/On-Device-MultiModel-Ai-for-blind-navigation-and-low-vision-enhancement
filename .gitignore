@@ -1,0 +1,26 @@
+# Local build outputs
+build/
+.gradle/
+.idea/
+*.iml
+local.properties
+.kotlin/
+.cxx/
+**/.cxx/
+
+# Android build outputs
+*.jks
+toc.pb
+*.apks
+release_outputs/
+
+# Model configuration files
+model-config.json
+app/src/main/assets/builtin_models
+
+# Logs and temp files
+*.log
+brief.aux
+brief.out
+/tmp/
+.DS_Store
