@@ -15,7 +15,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NavEhan"
+rootProject.name = "visionaid++"
 include ':app'
 include ':opencv'
 include ':mnn_tts'

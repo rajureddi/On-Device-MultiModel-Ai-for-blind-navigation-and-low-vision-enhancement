@@ -1,1 +1,0 @@
-C:\Users\rajub\Downloads\Blind-Friendly-v2\mobile\opencv\libcxx_helper\CMakeLists.txt
